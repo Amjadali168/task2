@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Submit your feedback</h1>
+        <form action="{{ url_for('feedback')}}" method="post">
+            <textarea name="feedback" placeholder="Enter your feedback here" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

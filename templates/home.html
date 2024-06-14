@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference management</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            margin-top: 40px;
+            color: #000;
+        }
+        h2{
+            color: #000;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+        }
+        .col{
+            text-align: center;
+        }
+        .btn{
+            width: 232px;
+            margin-top: 20px;
+            font-size: 20px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            color: #333;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover{
+            background-color: #e9ecef;
+
+        }
+    </style>
+ 
+</head>
+<body>
+    <h1>Conference Management System</h1>
+    <div class="container">
+        <div class="col">
+            <h2>For Registered Users</h2>
+            <a href="/login" class="btn">Login</a><br>
+            <a href="/admin" class="btn">Admin Login</a><br>
+
+
+        </div>
+        <div class="col">
+            <h2>For New Users</h2>
+            <a href="/register" class="btn">Register</a><br>
+    </div>
+</body>
+</html>
